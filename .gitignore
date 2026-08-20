@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Native-extension build products
+*.so
+*.dylib
+*.dll
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments and local configuration
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Datasets, checkpoints, and pretrained weights
+datasets/
+pre_models/
+pretrained_models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.meta
+*.index
+*.data-*-of-*
+
+# Installed external source trees (vendored H2S kernels remain tracked)
+third_party/detectron2/
+
+# Experiment artifacts
+outputs/
+output/
+eval_temp/
+visualization_output*/
+wandb/
+runs/
+*.log

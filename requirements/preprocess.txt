@@ -1,0 +1,9 @@
+# Offline MixIT separation and VGGish feature extraction.
+# TensorFlow is used through tensorflow.compat.v1 for the released checkpoints.
+numpy>=1.23,<2
+scipy>=1.9,<2
+librosa>=0.10,<0.12
+soundfile>=0.12,<0.14
+resampy>=0.4,<0.5
+tensorflow>=2.12,<2.21
+tf-slim>=1.1.0
