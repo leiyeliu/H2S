@@ -33,7 +33,6 @@ env/
 Thumbs.db
 
 # Datasets, checkpoints, and pretrained weights
-datasets/
 pre_models/
 pretrained_models/
 checkpoints/
